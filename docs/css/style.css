@@ -6,7 +6,7 @@ body {
 body {
     margin: 0;
     font-family: "Comfortaa", cursive, Arial, Helvetica, sans-serif;
-    -webkit-text-fill-color: #474954;
+    -webkit-text-fill-color: #32021f;
 }
 
 .left {
@@ -43,11 +43,16 @@ body {
     float: right;
     padding-top: 100px;
     position: absolute;
-    padding-left: 150px;
+    padding-left: 75px;
 }
 
 .about>p {
-    text-align: left;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.about h1 {
+    font-size: 40px;
 }
 
 .container {
@@ -59,28 +64,24 @@ body {
     float: left;
     padding-top: 500px;
     position: absolute;
-    padding-left: 150px;
+    padding-left: 200px;
+}
+
+.facts li {
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .social {
-    float: right;
-    padding-top: 500px;
     position: absolute;
-    padding-left: 700px;
+    text-align: center;
+    padding-left: 10%;
+    padding-top: 40px;
+    -webkit-text-fill-color: #7cdedc;
 }
 
-.socialItem {
-    display: flex;
-    align-items: center;
-    margin: 5px;
-}
-
-.socialItem>img {
-    flex-grow: 1;
-}
-
-.socialItem>a {
-    flex-grow: 1000;
+.social img {
     padding-left: 10px;
 }
 
@@ -90,4 +91,17 @@ body {
     width: 2%;
     background-color: #9e788f;
     padding-top: 75px;
+}
+
+.projects {
+    float: right;
+    padding-left: 800px;
+    position: absolute;
+    padding-top: 500px;
+}
+
+.projects li {
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
